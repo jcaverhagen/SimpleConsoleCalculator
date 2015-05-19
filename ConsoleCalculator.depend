@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1432057255 source:/home/jan/Desktop/C++ /CPP_Programs_from_book/ConsoleCalculator/main.cpp
+	<iostream>
+	<cstring>
+	"Calculation.h"
+
+1432057222 /home/jan/Desktop/C++ /CPP_Programs_from_book/ConsoleCalculator/Calculation.h
+
