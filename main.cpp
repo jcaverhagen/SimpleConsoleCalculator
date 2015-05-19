@@ -2,10 +2,12 @@
 #include <cstring>
 
 using namespace std;
+#include "Calculation.h"
 
 void printDescription(void);
 int main()
 {
+    Calculation calculator;
     printDescription();
 
     while(true) {
@@ -27,16 +29,16 @@ int main()
         int result;
         switch(method) {
             case '+' :
-                result = firstNumber + secondNumber;
+                result = calculator.plusCalc(firstNumber, secondNumber);
                 break;
             case '-' :
-                result = firstNumber - secondNumber;
+                result = calculator.minusCalc(firstNumber, secondNumber);
                 break;
             case 'x':
-                result = firstNumber * secondNumber;
+                result = calculator.multiplyCalc(firstNumber, secondNumber);
                 break;
             case '/' :
-                result = firstNumber / secondNumber;
+                result = calculator.divideCalc(firstNumber, secondNumber);
                 break;
             default :
                 cout << "\nMethod not known.\n";
