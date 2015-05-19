@@ -1,2 +1,3 @@
 # SimpleConsoleCalculator
-C++
+
+An simple console calculator written in C++.
