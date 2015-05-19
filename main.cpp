@@ -54,5 +54,6 @@ void printDescription(void) {
     cout << "This is an console calculator. \n"
     << "You can give me an sum and i calculate it for you.\n"
     << "You can use the follow methods of calculation: \n"
-    << "+, -, x, /\n" << endl;
+    << "+, -, x, /\n"
+    << "Enter zero (0) to quit.\n"<< endl;
 }
